@@ -20,7 +20,7 @@ la machine 👆
 - Apprentissage par renforcement
 
 ### Apprentissage suppervisé :
-![Alt Text]([https://tenor.com/view/sageyonce-gif-20853661.gif](https://tenor.com/fr/view/sageyonce-gif-20853661))
+![Alt Text](https://tenor.com/fr/view/sageyonce-gif-20853661)
 
 
 Dans ce mode d'apprentissage nous donnons à la machine un set de données étiquetées, ce sont des données qui comportent des informations afin que le machine puisse les analyser et les exploiter par la suite. L'apprentissage suppervisé permet de gérer deux problèmes d'extractions de données:
