@@ -1,5 +1,5 @@
   # Apprentissage Automatique
-![Alt Text](https://media.tenor.com/lQ_m2OPkOcwAAAAd/galaxy-galaxy-brain.gif)
+![Alt Text]([https://media.tenor.com/lQ_m2OPkOcwAAAAd/galaxy-galaxy-brain.gif](https://cdn.discordapp.com/attachments/1031448426442932245/1172475445313282088/galaxy-galaxy-brain.gif?ex=656073d9&is=654dfed9&hm=fabafe31d8fcffe36beed1f24fad88eb0bef3e1404f17914a63cb8a2101d8e53&))
 
 la machine 👆
 
@@ -20,7 +20,7 @@ la machine 👆
 - Apprentissage par renforcement
 
 ### Apprentissage suppervisé :
-![Alt Text](https://tenor.com/fr/view/sageyonce-gif-20853661)
+![Alt Text]([https://tenor.com/fr/view/sageyonce-gif-20853661](https://cdn.discordapp.com/attachments/1031448426442932245/1172475323015778314/sageyonce.gif?ex=656073bc&is=654dfebc&hm=bdfc3fd256db964e8c2b5a5b0cc1c780a55c20c6a2a50fdcaee050efb5fee00d&))
 
 
 Dans ce mode d'apprentissage nous donnons à la machine un set de données étiquetées, ce sont des données qui comportent des informations afin que le machine puisse les analyser et les exploiter par la suite. L'apprentissage suppervisé permet de gérer deux problèmes d'extractions de données:
