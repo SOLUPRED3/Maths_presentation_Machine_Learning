@@ -1,5 +1,5 @@
    # Apprentissage Automatique
-![](https://cdn.discordapp.com/attachments/962004101552545852/1175031392443322388/brain-big-brain.gif?ex=6569c042&is=65574b42&hm=7a5a0dba4fa4a46c8cdcd8cc96ca005e95fa804856bb478b5f6eec66843c92ec&)
+![](https://media.tenor.com/zP2FVpaCZMkAAAAd/brain-big-brain.gif)
 
 la machine 👆 (crampter)
 
