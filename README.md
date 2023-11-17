@@ -1,5 +1,5 @@
    # Apprentissage Automatique
-![](https://media.discordapp.net/attachments/1031448426442932245/1172475445313282088/galaxy-galaxy-brain.gif?ex=6569ae59&is=65573959&hm=ad377969caa67a9efc5758e3929794f3a854a65d2d73d8fd9eca85992519511b&)
+![](https://media.discordapp.net/attachments/1031448426442932245/1172475445313282088/galaxy-galaxy-brain.gif)
 
 la machine 👆 (crampter)
 
