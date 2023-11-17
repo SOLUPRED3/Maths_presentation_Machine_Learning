@@ -1,5 +1,5 @@
    # Apprentissage Automatique
-![](https://cdn.discordapp.com/attachments/1031448426442932245/1172475445313282088/galaxy-galaxy-brain.gif?ex=656073d9&is=654dfed9&hm=fabafe31d8fcffe36beed1f24fad88eb0bef3e1404f17914a63cb8a2101d8e53&)
+![](https://cdn.discordapp.com/attachments/962004101552545852/1175031392443322388/brain-big-brain.gif?ex=6569c042&is=65574b42&hm=7a5a0dba4fa4a46c8cdcd8cc96ca005e95fa804856bb478b5f6eec66843c92ec&)
 
 la machine 👆 (crampter)
 
@@ -31,7 +31,7 @@ la machine 👆 (crampter)
 ### Apprentissage non supervisé
 ![](https://cdn.discordapp.com/attachments/962004101552545852/1175025667763621939/old-man-working-david.gif?ex=6569baee&is=655745ee&hm=9ce52a67f57ec4e43151d4a4030f69be936b7d312a22fc7e970c4a797054b8e9&)
 
-
+L'apprentissage non suppervisé permet à la machine d'utiliser des algorithmes d'aprentissage sans l'intervention d'humains. Ces algorithmes permettent de découvrir des similitudes ou des différences dans des jeux de données etiquetées
 
 ## Exemples d'application
 
