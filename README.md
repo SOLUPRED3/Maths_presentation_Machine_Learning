@@ -12,6 +12,10 @@ la machine 👆 (crampter)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En 1943, une simulation du fonctionnement des **neurones** est reproduite à l'aide d'un circuit électrique, c'est ce qui a composé la base du concept des **réseaux neuronaux** dans l'apprentissage machine  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L'informaticien américain **Arthur Samuel** est le premier à utiliser le terme "machine learning" avec un programme apprennant à jouer aux dames
 
+## Liens avec le Big Data
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le **Big Bata** est une partie très importante du machine learning. C'est le concept de **stockage** d'une quantité gargantuesque de **données** dans une même banque de données, **facile d'accès**. Une sorte de regroupement de **toute l'information disponible sur internet**.
+Le machine learning a besoin d'analyser une très grande quantité de données rapidement, le Big Data permet d'**automatiser le traitement des données**.
+
 ## Les différents types d'apprentiassages
 
 - Apprentissage suppervisé
@@ -31,15 +35,34 @@ la machine 👆 (crampter)
 ### Apprentissage non supervisé
 ![](https://cdn.discordapp.com/attachments/962004101552545852/1175025667763621939/old-man-working-david.gif?ex=6569baee&is=655745ee&hm=9ce52a67f57ec4e43151d4a4030f69be936b7d312a22fc7e970c4a797054b8e9&)
 
-L'apprentissage non suppervisé permet à la machine d'utiliser des algorithmes d'aprentissage sans l'intervention d'humains. Ces algorithmes permettent de découvrir des similitudes ou des différences dans des jeux de données non etiquetées.
+L'apprentissage non suppervisé permet à la machine d'utiliser des algorithmes d'aprentissage sans l'intervention d'humains. Ces algorithmes permettent de découvrir des similitudes ou des différences dans des jeux de données non etiquetées. L'apprentissage non supervisé est principalement utilisé pour résoudre trois taches :
+
+- La classification : Dans l'apprentissage non supervisé, la classification consiste à regrouper des données non étiquetées en fonctions de leur différences ou similitudes. Il existe plusieurs methodes pour classifier des données. La classification exclusive et chevauchante se base sur l'algorithme de k-means (k-moyenne dans le langage de Molière), cet algorithme ce comporte de la manière suivante :
+
+```python
+Ajout des données # un set de données est donné a la machine, on peut les visualiser comme un groupe de points sur un plan.
+
+Initialisation de points de valur k (clusters) # Les clusters sont des points de référence placés aléatoirement ou grâce à une estimation des données.
+
+while(Cluster instable): # Au fil des itérations, la position des cluster va devenir de plus en plus précise.
+   
+      Assignation des données aux clusters # chaque point est relié au cluster le plus proche.
+
+      Calcul de la nouvelle position du cluster # La nouvelle position est égale à la moyenne des points.
+
+fin (clusters stable) # La position finale et les points qui sont associés aux clusters représentent les données de sortie.
+
+```
+
 
 ## Exemples d'application
 
-
+- Objects connectés qui se calent sur le comportement de leurs utlilisateurs
 - Détection des fraudes (fiscales par exemple)
 
 ![](https://cdn.discordapp.com/attachments/962004101552545852/1175029169747406909/danse-dance.gif)
-- 
+
+- Analyses prédictives (statistiques)
 
 ## sources comme l'eau (de source)
 
