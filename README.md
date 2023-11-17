@@ -31,6 +31,8 @@ la machine 👆 (crampter)
 ### Apprentissage non supervisé
 ![](https://cdn.discordapp.com/attachments/962004101552545852/1175025667763621939/old-man-working-david.gif?ex=6569baee&is=655745ee&hm=9ce52a67f57ec4e43151d4a4030f69be936b7d312a22fc7e970c4a797054b8e9&)
 
+
+
 ## Exemples d'application
 
 
