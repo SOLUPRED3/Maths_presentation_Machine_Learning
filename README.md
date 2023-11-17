@@ -38,7 +38,7 @@ la machine 👆 (crampter)
 
 - Détection des fraudes (fiscales par exemple)
 
-![](https://cdn.discordapp.com/attachments/962004101552545852/1175029169747406909/danse-dance.gif?ex=6569be31&is=65574931&hm=29d499eec6e80f78a831de302f07bd4b76ce9795b41e44163a4f0904abb7909b&)
+![](https://cdn.discordapp.com/attachments/962004101552545852/1175029169747406909/danse-dance.gif)
 - 
 
 ## sources comme l'eau (de source)
