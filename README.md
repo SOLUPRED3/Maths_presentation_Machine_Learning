@@ -40,6 +40,8 @@ L'apprentissage non suppervisé permet à la machine d'utiliser des algorithmes 
 - La classification : Dans l'apprentissage non supervisé, la classification consiste à regrouper des données non étiquetées en fonctions de leur différences ou similitudes. Il existe plusieurs methodes pour classifier des données. La classification exclusive et chevauchante se base sur l'algorithme de k-means (k-moyenne dans le langage de Molière), cet algorithme ce comporte de la manière suivante :
 
 ```python
+# Algorithme de k-means :
+
 Ajout des données # un set de données est donné a la machine, on peut les visualiser comme un groupe de points sur un plan.
 
 Initialisation de points de valur k (clusters) # Les clusters sont des points de référence placés aléatoirement ou grâce à une estimation des données.
