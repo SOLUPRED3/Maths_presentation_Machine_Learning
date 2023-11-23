@@ -56,6 +56,15 @@ fin (clusters stable) # La position finale et les points qui sont associés aux 
 
 ```
 - Règles d'association : Methode basée sur des règles qui permet de trouver des relations entre des variables dans un jeu de données. Cette méthode est souvent utilisée pour analyser le panier d'un consommateur pour faire le lien entre différents produits. La section "d'autres utilisateurs ont également acheté" d'Amazon est un bon exemple.
+
+### Apprentissage semi suppervisé
+
+L'apprentissage semi suppervisé est entre l'apprentissage supervisé et l'apprentissage non suppervisé. Il utilise un ensemble de données étiquetées et un ensemble de données non etiquetées. Il a été démontré que l'utilisation de données non étiquetées, en combinaison avec des données étiquetées, permet d'améliorer significativement la qualité de l'apprentissage. Un autre intérêt provient du fait que l'étiquetage de données nécessite souvent l'intervention d'un utilisateur humain. Lorsque les jeux de données deviennent très grands, cette opération peut s'avérer fastidieuse. Dans ce cas, l'apprentissage semi-supervisé, qui ne nécessite que quelques étiquettes, revêt un intérêt pratique évident.
+
+### Apprentissage par renforcement
+
+L’apprentissage par renforcement est un procédé d’apprentissage automatique consistant, pour un système autonome, à apprendre les actions à réaliser, à partir d'expériences, de façon à optimiser une récompense quantitative au cours du temps.
+
 ## Exemples d'application
 
 - Objects connectés qui se calent sur le comportement de leurs utlilisateurs
