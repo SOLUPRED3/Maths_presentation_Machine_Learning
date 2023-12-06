@@ -1,27 +1,25 @@
-import paho.mqtt.client as mqtt
-import json
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
 
 
-def on_connect(client, userdata, flags, rc):
-    print("Connected with result code "+str(rc))
+df = pd.read_csv("data.csv")
+df.drop(["devEUI", "infrared", "infrared_and_visible", "name", "floor", "deviceName", "time", "Building"], axis=1, inplace=True)
 
-    client.subscribe("AM107/#")
+grid = sns.pairplot(df, corner=True)
 
+target_name = "co2"
+features_names = ["activity", "humidity", "illumination", "pressure", "temperature", "cvoc"]
+y, X = df[target_name], df.drop(target_name)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-def on_message(client, userdata, msg):
-    print(msg.topic+" "+str(msg.payload))
-    payload = json.loads(msg.payload)
+regressor_with_ability = LinearRegression()
+regressor_with_ability.fit(X_train[features_names], y_train)
+y_pred_w_ability = regressor_with_ability.predict(X_test[features_names])
+R2_w_ability = r2_score(y_test, y_pred_w_ability)
 
-    line = ""
-
-    for data in payload[0]:
-        line +=  + ";"
-    print(line)
-
-client = mqtt.Client()
-client.on_connect = on_connect
-client.on_message = on_message
-
-client.connect("chirpstack.iut-blagnac.fr", 1883, 60)
-
-client.loop_forever()
+print(f"R2 score with ability: {R2_w_ability:.3f}")
