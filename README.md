@@ -64,7 +64,12 @@ L'apprentissage semi suppervisé est entre l'apprentissage supervisé et l'appre
 ### Apprentissage par renforcement
 
 L’apprentissage par renforcement est un procédé d’apprentissage automatique consistant, pour un système autonome, à apprendre les actions à réaliser, à partir d'expériences, de façon à optimiser une récompense quantitative au cours du temps.
+Le systeme est placé dans un environnement donné dans lequel il est possible de faire plusieurs actions. Selon la désision choisie le système va recevoir une récompence ou une pénalité selon l'objectif a atteindre. Prenons par exemple le jeu vidéo Pacman. Le système va pouvoir se déplacer dans le labyrinthe contenant des gommes a récupérer et des fantômes (environement). Pour terminer le niveau il faut récupérer toutes les gommes du labyrinthe; pour chaque gomme récupérée le système se verra acorder une récompence ainsi il peut comprendre que rammasser les gommes est le comportement attendu. A contrario, les fantomes éliminent le joueur, si le système se fait manger par un fantôme, il se verra attribuer une pénalité. Au fur et a mesure des essais et des tentatives le système va comprendre grace au récompences et pénalités, le comportement a apporter pour maximiser les récompences.
 
+L'IA *AlphaZero* est basée sur l'apprentissage par renforcement à surpassé les niveaux de jeu des humains en seulement 24h d'apprentissage.
+
+
+L'apprentissage par renforcement peut etre utilisé dans de nombreux domaines tel que la finance afin de prédire le cours des actions, la médecine ou la génération de données, la robotique.
 ## Exemples d'application
 
 - Objects connectés qui se calent sur le comportement de leurs utlilisateurs
