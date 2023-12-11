@@ -91,5 +91,5 @@ https://ia-data-analytics.fr/machine-learning/
 
 ![](https://media.discordapp.net/attachments/1148600908373053492/1153687794774966323/1142868524419780768.gif)
 
-***Quoicoube*** (on vit dans une saucisse)
+(on vit dans une saucisse)
 
