@@ -1,6 +1,5 @@
 import pandas as pd
 import seaborn as sns
-import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
@@ -12,9 +11,14 @@ df.drop(["devEUI", "infrared", "infrared_and_visible", "name", "floor", "deviceN
 
 grid = sns.pairplot(df, corner=True)
 
+for el in df:
+    print(el)
+
+
 target_name = "co2"
-features_names = ["activity", "humidity", "illumination", "pressure", "temperature", "cvoc"]
-y, X = df[target_name], df.drop(target_name)
+features_names = ["activity", "humidity", "illumination", "pressure", "temperature", "tvoc"]
+y = df[target_name]
+X = df[features_names]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 regressor_with_ability = LinearRegression()
