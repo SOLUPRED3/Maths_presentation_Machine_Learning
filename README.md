@@ -18,16 +18,16 @@ Le machine learning a besoin d'analyser une très grande quantité de données r
 
 ## Les différents types d'apprentiassages
 
-- Apprentissage suppervisé
-- Apprentissage non suppervisé
-- Apprentissage semi suppervisé
+- Apprentissage supervisé
+- Apprentissage non supervisé
+- Apprentissage semi supervisé
 - Apprentissage par renforcement
 
-### Apprentissage suppervisé :
+### Apprentissage supervisé :
 ![](https://cdn.discordapp.com/attachments/1031448426442932245/1172475323015778314/sageyonce.gif?ex=656073bc&is=654dfebc&hm=bdfc3fd256db964e8c2b5a5b0cc1c780a55c20c6a2a50fdcaee050efb5fee00d&)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dans ce mode d'apprentissage nous donnons à la machine un set de données étiquetées, ce sont des données qui comportent des informations afin que le machine puisse les analyser et les exploiter par la suite. L'apprentissage suppervisé permet de gérer deux problèmes d'extractions de données:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dans ce mode d'apprentissage nous donnons à la machine un set de données étiquetées, ce sont des données qui comportent des informations afin que le machine puisse les analyser et les exploiter par la suite. L'apprentissage supervisé permet de gérer deux problèmes d'extractions de données:
 - La classification : Il s'agit d'utilser les informations labellées afin de classifier différents éléments dans différentes catégories. Prenons par exemple un algorithme capable de différencier des images de camions et de voitures. Dans un premier temps nous donnons a la machine une image de camion en présisant pour chacune le vehicule sur l'image; ce sont les données labélisées. Nous donnons en suite une image a analyser. A partir des données labélisées, l'algorithme va chercher des similitudes pour voir a quelle catégorie l'image semble appartenir.
 
 - La régréssion : La régression est utilisée pour comprendre la relation entre les variables dépendantes et indépendantes. Elle est couramment utilisée pour faire des projections, par exemple, sur le chiffre d'affaires d'une entreprise. La régression linéaire, la régression logistique et la régression polynomiale sont des algorithmes de régression couramment utilisés.
@@ -35,7 +35,7 @@ Le machine learning a besoin d'analyser une très grande quantité de données r
 ### Apprentissage non supervisé
 ![](https://cdn.discordapp.com/attachments/962004101552545852/1175025667763621939/old-man-working-david.gif?ex=6569baee&is=655745ee&hm=9ce52a67f57ec4e43151d4a4030f69be936b7d312a22fc7e970c4a797054b8e9&)
 
-L'apprentissage non suppervisé permet à la machine d'utiliser des algorithmes d'aprentissage sans l'intervention d'humains. Ces algorithmes permettent de découvrir des similitudes ou des différences dans des jeux de données non etiquetées. L'apprentissage non supervisé est principalement utilisé pour résoudre trois taches :
+L'apprentissage non supervisé permet à la machine d'utiliser des algorithmes d'aprentissage sans l'intervention d'humains. Ces algorithmes permettent de découvrir des similitudes ou des différences dans des jeux de données non etiquetées. L'apprentissage non supervisé est principalement utilisé pour résoudre trois taches :
 
 - La classification : Dans l'apprentissage non supervisé, la classification consiste à regrouper des données non étiquetées en fonctions de leur différences ou similitudes. Il existe plusieurs methodes pour classifier des données. La classification exclusive et chevauchante se base sur l'algorithme de k-means (k-moyenne dans le langage de Molière), cet algorithme ce comporte de la manière suivante :
 
@@ -57,9 +57,9 @@ fin (clusters stable) # La position finale et les points qui sont associés aux 
 ```
 - Règles d'association : Methode basée sur des règles qui permet de trouver des relations entre des variables dans un jeu de données. Cette méthode est souvent utilisée pour analyser le panier d'un consommateur pour faire le lien entre différents produits. La section "d'autres utilisateurs ont également acheté" d'Amazon est un bon exemple.
 
-### Apprentissage semi suppervisé
+### Apprentissage semi supervisé
 
-L'apprentissage semi suppervisé est entre l'apprentissage supervisé et l'apprentissage non suppervisé. Il utilise un ensemble de données étiquetées et un ensemble de données non etiquetées. Il a été démontré que l'utilisation de données non étiquetées, en combinaison avec des données étiquetées, permet d'améliorer significativement la qualité de l'apprentissage. Un autre intérêt provient du fait que l'étiquetage de données nécessite souvent l'intervention d'un utilisateur humain. Lorsque les jeux de données deviennent très grands, cette opération peut s'avérer fastidieuse. Dans ce cas, l'apprentissage semi-supervisé, qui ne nécessite que quelques étiquettes, revêt un intérêt pratique évident.
+L'apprentissage semi supervisé est entre l'apprentissage supervisé et l'apprentissage non supervisé. Il utilise un ensemble de données étiquetées et un ensemble de données non etiquetées. Il a été démontré que l'utilisation de données non étiquetées, en combinaison avec des données étiquetées, permet d'améliorer significativement la qualité de l'apprentissage. Un autre intérêt provient du fait que l'étiquetage de données nécessite souvent l'intervention d'un utilisateur humain. Lorsque les jeux de données deviennent très grands, cette opération peut s'avérer fastidieuse. Dans ce cas, l'apprentissage semi-supervisé, qui ne nécessite que quelques étiquettes, revêt un intérêt pratique évident.
 
 ### Apprentissage par renforcement
 
