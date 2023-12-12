@@ -56,12 +56,16 @@ fin (clusters stable) # La position finale et les points qui sont associés aux 
 
 ```
 - Règles d'association : Methode basée sur des règles qui permet de trouver des relations entre des variables dans un jeu de données. Cette méthode est souvent utilisée pour analyser le panier d'un consommateur pour faire le lien entre différents produits. La section "d'autres utilisateurs ont également acheté" d'Amazon est un bon exemple.
+  
 
 ### Apprentissage semi supervisé
+![](https://cdn.discordapp.com/attachments/962003145154773075/1184083501683843132/ralph-ralph-wiggum.gif?ex=658aaeb2&is=657839b2&hm=ddae936dc9348efb654b7bcce41a8744e05b8d9a1fe2a0ebb8e5fa5833e059d8&)
 
 L'apprentissage semi supervisé est entre l'apprentissage supervisé et l'apprentissage non supervisé. Il utilise un ensemble de données étiquetées et un ensemble de données non etiquetées. Il a été démontré que l'utilisation de données non étiquetées, en combinaison avec des données étiquetées, permet d'améliorer significativement la qualité de l'apprentissage. Un autre intérêt provient du fait que l'étiquetage de données nécessite souvent l'intervention d'un utilisateur humain. Lorsque les jeux de données deviennent très grands, cette opération peut s'avérer fastidieuse. Dans ce cas, l'apprentissage semi-supervisé, qui ne nécessite que quelques étiquettes, revêt un intérêt pratique évident.
 
+
 ### Apprentissage par renforcement
+![](https://cdn.discordapp.com/attachments/962003145154773075/1184089693751611422/sylvester-stallone-rocky.gif?ex=658ab476&is=65783f76&hm=f80b530eccc021755101a96a24aac7552c2a68df6c61db93b903e6bc6ef1fea4&)
 
 L’apprentissage par renforcement est un procédé d’apprentissage automatique consistant, pour un système autonome, à apprendre les actions à réaliser, à partir d'expériences, de façon à optimiser une récompense quantitative au cours du temps.
 Le systeme est placé dans un environnement donné dans lequel il est possible de faire plusieurs actions. Selon la désision choisie le système va recevoir une récompence ou une pénalité selon l'objectif a atteindre. Prenons par exemple le jeu vidéo Pacman. Le système va pouvoir se déplacer dans le labyrinthe contenant des gommes a récupérer et des fantômes (environement). Pour terminer le niveau il faut récupérer toutes les gommes du labyrinthe; pour chaque gomme récupérée le système se verra acorder une récompence ainsi il peut comprendre que rammasser les gommes est le comportement attendu. A contrario, les fantomes éliminent le joueur, si le système se fait manger par un fantôme, il se verra attribuer une pénalité. Au fur et a mesure des essais et des tentatives le système va comprendre grace au récompences et pénalités, le comportement a apporter pour maximiser les récompences.
@@ -73,11 +77,19 @@ L'apprentissage par renforcement peut etre utilisé dans de nombreux domaines te
 ## Exemples d'application
 
 - Objects connectés qui se calent sur le comportement de leurs utlilisateurs
-- Détection des fraudes (fiscales par exemple)
+- Data science et analyse des données
+- Secteur industriel : maintenance prédictive et surveillance des équipements
+- Commerce : upselling et marketing cross-canal
+- Santé et sciences de la vie : diagnostic et réduction des risques
+- Tourisme et hôtellerie : tarification dynamique
+- Services financiers : analyse et régulation des risques
+- Énergie : optimisation de la demande et de l'approvisionnement 
+
+- Analyses prédictives (statistiques)
+- Détection des fraudes (fiscales par exemple).
 
 ![](https://cdn.discordapp.com/attachments/962004101552545852/1175029169747406909/danse-dance.gif)
 
-- Analyses prédictives (statistiques)
 
 ## sources comme l'eau (de source)
 
@@ -87,9 +99,10 @@ https://fr.wikipedia.org/wiki/Apprentissage_automatique
 
 https://ia-data-analytics.fr/machine-learning/
 
+https://www.netapp.com/fr/artificial-intelligence/what-is-machine-learning/
+
 
 
 ![](https://media.discordapp.net/attachments/1148600908373053492/1153687794774966323/1142868524419780768.gif)
 
-(on vit dans une saucisse)
-
+(on vit dans une saucisse)w
