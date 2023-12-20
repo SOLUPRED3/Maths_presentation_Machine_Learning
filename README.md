@@ -55,6 +55,8 @@ while(Cluster instable): # Au fil des itérations, la position des cluster va de
 fin (clusters stable) # La position finale et les points qui sont associés aux clusters représentent les données de sortie.
 
 ```
+Une démonstration d'apprentissage non suppervisé avec K-means est disponible dans le notebook présent dans le repository. Dans ce cas le programme permet de trier différentes espèces d'Iris
+
 - Règles d'association : Methode basée sur des règles qui permet de trouver des relations entre des variables dans un jeu de données. Cette méthode est souvent utilisée pour analyser le panier d'un consommateur pour faire le lien entre différents produits. La section "d'autres utilisateurs ont également acheté" d'Amazon est un bon exemple.
   
 
